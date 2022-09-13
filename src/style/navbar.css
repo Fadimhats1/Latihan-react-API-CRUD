@@ -10,3 +10,12 @@
     color: rgba(0, 0, 0, 0.87);
     margin: 0;
 }
+
+@media screen and (max-width: 625px){
+    .navbar{
+        font-size: 14px;
+        padding: 0.8rem 1rem;
+    }
+  }
+
+  

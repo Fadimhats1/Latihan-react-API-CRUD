@@ -1,6 +1,6 @@
 .card-container {
     display: flex;
-    max-width: 240px;
+    max-width: 320px;
     background-color: white;
     padding: 1rem;
     border-radius: 0.5rem;
@@ -52,3 +52,19 @@
 .container-button-card button{
     flex: 1;
 }
+
+@media screen and (max-width: 625px){
+    .card-container{
+        font-size: 14px;
+    }
+    .container-text{
+        padding: 0rem 0.5rem;
+        padding-top: 1rem;
+        padding-bottom: 0.2rem;
+    }
+    .container-button-card{
+        gap: 0.8rem;
+    }
+  }
+
+  

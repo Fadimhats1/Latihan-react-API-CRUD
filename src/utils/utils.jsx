@@ -1,6 +1,6 @@
 import { createContext } from "react";
 
-export const URL_API = "http://localhost:3004/posts"
+export const URL_API = "http://localhost:3000/posts"
 
 export const URL_image = "https://placeimg.com/640/480/";
 

@@ -13,7 +13,7 @@ const Modal = ({ isOpen, isUpdate, click, functions, postData }) => {
                     <textarea name="body" id="body" cols="30" rows="8" placeholder="Post's description" onChange={(e) => functions.changeHandle(e)} value={postData.body}></textarea>
                     <button className='button-form' onClick={() => {
                         functions.submitHandle(postData.id)
-                    }}>Add</button>
+                    }}>{isUpdate ? "Update" : "Add"}</button>
                 </div>
                 <div className='close-button'>&times;</div>
             </div>

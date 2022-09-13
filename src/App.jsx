@@ -97,7 +97,6 @@ export default class App extends Component {
         removeHandle: this.removeHandle,
       }
     }
-    console.log(this.state.posts);
     return (
       <div className='app'>
         <Navbar />

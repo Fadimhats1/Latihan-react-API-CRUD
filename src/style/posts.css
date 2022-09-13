@@ -1,0 +1,11 @@
+.posts{
+    display: grid;
+    row-gap: 1.5rem;
+    grid-template-columns: repeat(4, 300px);
+
+}
+
+.add-posts{
+    margin: 1.5rem 0rem;
+}
+

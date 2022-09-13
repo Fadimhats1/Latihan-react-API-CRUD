@@ -1,0 +1,15 @@
+.body{
+  margin: auto;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  width: 100% ;
+  min-height: 100vh;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+  color: white;
+}
+
+.body *{
+  margin: 0;
+}
